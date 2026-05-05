@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+
+# env
+.env
+.env.local
+
+# secrets — never commit
+google-services.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+npm-debug.log*
+
+# eas
+android/
+ios/
+
+# dev artifacts en root
+/*.jpeg
+/*.jpg
+/*.zip
+/*.docx
+/*.txt
+/design_handoff/
+/pulido_funcionalidad.md
+/SKILL.md
+
+# internal dev files
+context.md
+CLAUDE.md
+SETUP.md
+supabase/.temp/
