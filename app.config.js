@@ -12,7 +12,7 @@ module.exports = {
         backgroundColor: '#1a3a6b',
       },
       package: 'com.parksignal.app',
-      googleServicesFile: './google-services.json',
+      googleServicesFile: process.env.GOOGLE_SERVICES_JSON ?? './google-services.json',
       config: {
         googleMaps: {
           apiKey: process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY,
